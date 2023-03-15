@@ -1,0 +1,51 @@
+sistem de login: 
+
+pe functia de supraincarcare a operatorului de citire vreau ca la introducerea comenzii 1 
+utilizatorul sa faca login, iar la 2 sa faca 
+register
+
+clasa user cu campurile:
+id utilizator 
+username 
+parola
+data crearii
+status
+
+REGISTER
+
+functie verificare utilizator existent
+
+functie verificare utilizator (exista sau nu)
+
+functie verificare cont activ
+
+LOGIN
+
+functie verificare parola si utilizator
+
+functie delogare
+
+functie modificare parola
+
+functie stergere cont
+
+Subclasa admin 
+
+functie banare cont
+
+functie preluare masini libere sau masini inchiriate
+
+
+clasa car
+
+atribute:
+culoare
+marca
+capacitate motor
+tip cutie de viteza
+tractiune
+tip motor (benzina/motorina/electric)
+data inchirierii -> string
+data finalizare inchiriere -> string
+utilizator inchiriere 
+id utilizator 
